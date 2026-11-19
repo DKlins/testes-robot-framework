@@ -1,0 +1,19 @@
+# Dependências Node.js e Python
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Artefatos gerados pelo Robot Framework
+results/
+output.xml
+log.html
+report.html
+playwright-log.txt
+browser/
+
+# Logs e arquivos temporários do sistema
+*.log
+.DS_Store
+Thumbs.db
